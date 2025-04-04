@@ -1,0 +1,54 @@
+body {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 안내문구 */
+.message {
+    width: 30%;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #858585a4;
+    border-radius: 30px;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 인식버튼 */
+.btn-camera {
+    background-color: transparent;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* 이미지 불러오기 버튼 위치 */
+.btn-image {
+    top: 85%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+}
+
+/* 버튼 이미지 스타일 */
+.btn-image img {
+    display: block;
+}
+
+/* 버튼 스타일 */
+.btn img {
+    opacity: 0.5;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
